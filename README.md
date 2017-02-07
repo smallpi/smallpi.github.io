@@ -6,6 +6,8 @@
 
 ## 漫漫码农路 (Programming)
 
+### [软件设计](./programming/design_contents.md)
+
 ### [C & C++](./programming/c_contents.md)
 
 ### [Java](./programming/java_contents.md)
