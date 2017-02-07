@@ -1,3 +1,4 @@
-# C & C++ 目录 (Contents)
+# C & C++ 鐩綍 (Contents)
+---
 
-## [强大的scanf家族](./c/scanf.md) 
+## [寮哄ぇ鐨剆canf瀹舵棌](./c/scanf.md) 
