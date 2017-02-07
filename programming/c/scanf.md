@@ -10,7 +10,7 @@ scanf家族有三个成员 `scanf`、`sscanf` 和 `fscanf`。
 
 这三个函数使用方法为
 
-```java
+```c++
 
 //scanf
 //从stdin标准输入流 读取指定格式的数据
