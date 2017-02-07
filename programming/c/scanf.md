@@ -1,9 +1,9 @@
 # Ç¿´óµÄscanf¼Ò×å
 
 ---
-
+```
 scanf¼Ò×åÓÐÈý¸ö³ÉÔ± `scanf`¡¢`sscanf` ºÍ `fscanf`¡£
-
+```
 ## ÓÃ·¨
 
 ---
@@ -30,9 +30,9 @@ feofÅÐ¶ÏÎÄ¼þÊÇ·ñ½áÊø£¬ferrorÅÐ¶ÏÎÄ¼þÊÇ·ñ·¢Éú¶ÁÈ¡´íÎó£¬errno¿ÉÒÔÅÐ¶Ï¸üÈ·ÇÐµÄ´íÎóÀ
 ## formatÇ¿´óÖ®´¦
 
 ---
-
+```
 scanfº¯Êý¼Ò×åµÄÇ¿´óÖ®´¦ÔÚÓÚformat²ÎÊýµÄÊ¹ÓÃ¡£¶¼ÖªµÀformatÖ¸¶¨`%i`¡¢`%f`¿ÉÒÔ¶ÁÈ¡Ö¸¶¨intºÍfloatÀàÐÍµÄÊý¾Ý£¬µ«Õâ¸öÓÃ·¨½ö½öÊÇformatµÄÒ»Ð¡³É¹¦Á¦¡£Êµ¼ÊÉÏ£¬formatÓÃ·¨ÊÇ¿ÉÒÔÖ§³ÖÆ¥ÅäµÈ·á¸»ÓÃ·¨µÄ¡£
-
+```
 format ×Ö·û´®ÖÐ°üº¬ÈýÖÖÀàÐÍµÄ×Ö·û
 
 1. ¿Õ°××Ö·û (ºöÂÔÊäÈëÁ÷ÖÐµÚÒ»¸ö·Ç¿Õ°××Ö·ûÇ°·½µÄËùÓÐ¿Õ°××Ö·û)
@@ -74,10 +74,11 @@ n -> µ½Ä¿Ç°×Ö·ûÎªÖ¹¶ÁÁË¶àÉÙ¸ö×Ö·û
 ```
  * -> Æ¥Åä¸ÃÊý¾Ý£¬µ«ÊÇÌø¹ý¸ÃÊý¾ÝµÄ¶ÁÈ¡£¬Èç%*f
 ```
+```
 width -> ÔÚÊý¾Ý¶ÁÈ¡Ê±Ö¸¶¨×î¶à¶Á¶àÉÙ¸ö×Ö·û
 
 length -> ¿ÉÒÔÎªhh,h,l,ll,j,z,t,LÆäÖÐµÄÒ»¸ö£¬ÓÃÓÚÃèÊö»ù±¾Êý¾ÝÀàÐÍ¡£Èç%lcÖ¸¶¨ wchar_t*ÀàÐÍµÈ¡£
-
+```
 
 ## ²Î¿¼
 
