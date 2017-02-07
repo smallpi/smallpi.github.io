@@ -10,7 +10,7 @@ scanf家族有三个成员 `scanf`、`sscanf` 和 `fscanf`。
 
 这三个函数使用方法为
 
-```cpp
+```c_pp
 //scanf
 //从stdin标准输入流 读取指定格式的数据
 int scanf ( const char * format, ... );
@@ -72,7 +72,7 @@ n -> 到目前字符为止读了多少个字符
 #### *，width和length格式符
 
 
- * -> 匹配该数据，但是跳过该数据的读取，如%*f
+ %* -> 匹配该数据，但是跳过该数据的读取，如%*f
 
 
 width -> 在数据读取时指定最多读多少个字符
