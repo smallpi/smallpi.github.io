@@ -1,22 +1,22 @@
 ![smallpi](./images/smallpi.png)
 
+---
+
 # 目录 (Contents)
 
 ## 漫漫码农路 (Programming)
 
-### [C & C++](./programming/ccontents.md)
+### [C & C++](./programming/c_contents.md)
 
-### [Java](./programming/javacontents.md)
+### [Java](./programming/java_contents.md)
 
-### [Python](./programming/pythoncontents.md)
+### [Python](./programming/python_contents.md)
 	
-	
-	
-	
+---	
 
 ## 缤纷图形几何 (Graphics and Geometry)
 
 
-### [计算机图形学](./geometry/graphicscontents.md)
+### [计算机图形学](./graphics_geometry/graphics_contents.md)
 
-### [计算几何](./geometry/geometrycontents.md)
+### [计算几何](./graphics_geometry/geometry_contents.md)
