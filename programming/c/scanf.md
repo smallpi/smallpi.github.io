@@ -11,6 +11,7 @@ scanf家族有三个成员 `scanf`、`sscanf` 和 `fscanf`。
 这三个函数使用方法为
 
 ```c_cpp
+
 //scanf
 //从stdin标准输入流 读取指定格式的数据
 int scanf ( const char * format, ... );
@@ -22,6 +23,7 @@ int sscanf ( const char * s, const char * format, ...);
 //fscanf
 //从文件指针 FILE * stream 作为输入流 读取指定格式的数据
 int fscanf ( FILE * stream, const char * format, ... );
+
 ```
 
 
