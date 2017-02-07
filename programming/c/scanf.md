@@ -10,7 +10,7 @@ scanf家族有三个成员 `scanf`、`sscanf` 和 `fscanf`。
 
 这三个函数使用方法为
 
-```
+```c_cpp
 //scanf
 //从stdin标准输入流 读取指定格式的数据
 int scanf ( const char * format, ... );
@@ -23,6 +23,7 @@ int sscanf ( const char * s, const char * format, ...);
 //从文件指针 FILE * stream 作为输入流 读取指定格式的数据
 int fscanf ( FILE * stream, const char * format, ... );
 ```
+
 
 三个函数的返回值均是 **成功读取的数据个数**。当返回值小于我们指定的数据个数时，说明发生了错误(匹配错误，读取错误，文件结束等)。
 feof判断文件是否结束，ferror判断文件是否发生读取错误，errno可以判断更确切的错误类型
