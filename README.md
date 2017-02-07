@@ -14,5 +14,5 @@
 
 ## 缤纷图形几何 (Graphics and Geometry)
 
-1. 计算机图形学(./gra_and_geo/comupter_geometry_contents.md)
-2. 计算几何(./gra_and_geo/computational_geometry_contents.md)
+1. [计算机图形学](./gra_and_geo/comupter_geometry_contents.md)
+2. [计算几何](./gra_and_geo/computational_geometry_contents.md)
