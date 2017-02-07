@@ -1,10 +1,12 @@
 ![smallpi](./images/smallpi.png)
 
----
+------------------------
 
 # 目录 (Contents)
 
 ## 漫漫码农路 (Programming)
+
+-----------------------
 
 ### [软件设计](./programming/design_contents.md)
 
@@ -14,7 +16,7 @@
 
 ### [Python](./programming/python_contents.md)
 	
----	
+-----------------------
 
 ## 缤纷图形几何 (Graphics and Geometry)
 
