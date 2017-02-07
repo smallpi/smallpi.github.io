@@ -2,8 +2,6 @@
 
 # 目录 (Contents)
 
----
-
 ## 漫漫码农路 (Programming)
 
 ### [C & C++](./programming/c_contents.md)
