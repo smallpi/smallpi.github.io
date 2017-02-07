@@ -17,6 +17,6 @@
 ## 缤纷图形几何 (Graphics and Geometry)
 
 
-### [计算机图形学](./geometry/geometrycontents.md)
+### [计算机图形学](./geometry/graphicscontents.md)
 
 ### [计算几何](./geometry/geometrycontents.md)
