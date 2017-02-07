@@ -1,5 +1,5 @@
 # 强大的`scanf`家族
----
+
 
 scanf家族有三个成员 `scanf`、`sscanf` 和 `fscanf`。
 
@@ -70,7 +70,7 @@ n -> 到目前字符为止读了多少个字符
 
 width -> 在数据读取时指定最多读多少个字符
 
-length -> 可以为hh,h,l,ll,j,z,t,L其中的一个，用于描述基本数据类型
+length -> 可以为hh,h,l,ll,j,z,t,L其中的一个，用于描述基本数据类型。如%lc指定 wchar_t*类型等。
 
 
 ## 参考

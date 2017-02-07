@@ -10,7 +10,9 @@
 
 ### [Python](./programming/python_contents.md)
 	
----
+	
+	
+	
 
 ## 缤纷图形几何 (Graphics and Geometry)
 
