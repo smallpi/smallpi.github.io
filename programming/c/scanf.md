@@ -1,9 +1,9 @@
 # 强大的scanf家族
 
 ---
-```
+
 scanf家族有三个成员 `scanf`、`sscanf` 和 `fscanf`。
-```
+
 ## 用法
 
 ---
@@ -30,9 +30,9 @@ feof判断文件是否结束，ferror判断文件是否发生读取错误，errn
 ## format强大之处
 
 ---
-```
+
 scanf函数家族的强大之处在于format参数的使用。都知道format指定`%i`、`%f`可以读取指定int和float类型的数据，但这个用法仅仅是format的一小成功力。实际上，format用法是可以支持匹配等丰富用法的。
-```
+
 format 字符串中包含三种类型的字符
 
 1. 空白字符 (忽略输入流中第一个非空白字符前方的所有空白字符)
@@ -40,7 +40,7 @@ format 字符串中包含三种类型的字符
 3. 非空白非格式符 (必须完全匹配，不匹配则发生读取错误)
 
 格式符的使用格式
-```
+
 > %[*][width][length]specifier
 
 #### specifier
@@ -70,16 +70,16 @@ n -> 到目前字符为止读了多少个字符
 % -> %自身，格式字符串中出现%时需要%%进行转义。
 
 #### *，width和length格式符
-```
-```
+
+
  * -> 匹配该数据，但是跳过该数据的读取，如%*f
-```
-```
+
+
 width -> 在数据读取时指定最多读多少个字符
 
 length -> 可以为hh,h,l,ll,j,z,t,L其中的一个，用于描述基本数据类型。如%lc指定 wchar_t*类型等。
-```
+
 
 ## 参考
 
-1. [C++文档](http://www.cplusplus.com/reference/cstdio/scanf/)
+1. [C++文档:http://www.cplusplus.com/reference/cstdio/scanf/](http://www.cplusplus.com/reference/cstdio/scanf/)
