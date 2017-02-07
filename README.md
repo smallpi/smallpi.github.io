@@ -10,3 +10,5 @@
 这是一只皮卡丘。
 ![皮卡丘](./images/pika.png)
 [Manifest.xml](https://github.com/smallpi/MiniCircle/blob/master/app/src/main/AndroidManifest.xml)
+
+[Second.md](./second.md)
