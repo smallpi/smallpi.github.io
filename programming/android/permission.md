@@ -2,7 +2,7 @@
 
 ------------------------
 
-```android
+```
 Android中的每个应用都有其独特的系统标识(Linux中的UID和GID)
 系统中的各个部分都有不同的标识，从而区分应用和应用，系统和应用。
 
@@ -26,7 +26,7 @@ Android应用
 
 --------------------------------------------
 
-```android
+```
 使用权限
 	正常权限
 		声明后系统会自动授予的权限
@@ -40,7 +40,7 @@ Android应用
 
 ### 危险权限及其权限组
 
-```android
+```Android
 CALENDAR
 	READ_CALENDAR
 	WRITE_CALENDAR
@@ -90,12 +90,13 @@ STORAGE
 </manifest>
 ```
 
-```android
+```
 protectionLevel 必要属性
 permissionGroup 可选属性 默认为标准系统组 android.Manifest.permission_group
 
 adb shell pm list permissions 查看系统当前定义的权限
 ```
+
 
 ## 参考
 
