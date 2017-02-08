@@ -40,7 +40,7 @@ Android应用
 
 ### 危险权限及其权限组
 
-```Android
+```
 CALENDAR
 	READ_CALENDAR
 	WRITE_CALENDAR
