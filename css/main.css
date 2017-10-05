@@ -72,7 +72,7 @@ nav ul li a {
  * 768px及以下为移动设备
  * 768px以上电脑
  */
-@media screen and (max-width:768px) {
+@media screen and (max-width:1600px) {
     header {
         position: fixed;
         top: 0;
