@@ -1,0 +1,50 @@
+{
+    "places": 
+    [
+        {
+            "name": "中山沙溪",
+            "pos": [113.304734,22.502695],
+            "images":[
+                "images/imgTest.png"
+            ]
+        },
+        {
+            "name": "华大厦门校区",
+            "pos": [118.085972,24.601109],
+            "images":[
+                "images/imgTest.png",
+                "images/imgTest.png"
+            ]
+        },
+        {
+            "name": "厦门鼓浪屿",
+            "pos": [118.066878,24.444961],
+            "images":[
+                "images/imgTest.png",
+                "images/imgTest.png",
+                "images/imgTest.png"
+            ]
+        },
+        {
+            "name": "西安",
+            "pos": [108.935823,34.338884],
+            "images":[
+                "images/imgTest.png",
+                "images/imgTest.png",
+                "images/imgTest.png",
+                "images/imgTest.png"
+            ]
+        },
+        {
+            "name": "北京",
+            "pos": [116.413831,39.550047],
+            "images":[
+                "images/imgTest.png",
+                "images/imgTest.png",
+                "images/imgTest.png",
+                "images/imgTest.png",
+                "images/imgTest.png"
+            ]
+        }
+    ]
+}
