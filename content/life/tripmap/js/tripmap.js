@@ -1,5 +1,6 @@
 var map = null;
 var imageWall = document.getElementById("image-wall");
+var imageWallTitle = document.getElementById("image-wall-title");
 
 var places = null;
 var placeMap = new Map();
@@ -46,9 +47,12 @@ function addMarker(place){
 // marker点击事件
 function onMarkerClick(e){
     imageWall.style.display = "block";
-
+    
     var name = e.target.getTitle();
     var place = placeMap.get(name);
+
+    imageWallTitle.innerText = name;
+
     place.images.forEach(function(url){
         var image = new Image();
         image.src = url;
