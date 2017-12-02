@@ -8,6 +8,8 @@
 
 ### [C++中placement new操作符（经典）](http://blog.csdn.net/zhangxinrun/article/details/5940019)
 
+### [C++运算符重载和友元函数用法](http://blog.csdn.net/KingCat666/article/details/44870799)
+
 # 用于查询的文章
 
 ### [TCHAR 函数对照表](http://blog.csdn.net/is2120/article/details/27542927)
