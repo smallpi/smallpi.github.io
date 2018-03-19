@@ -10,6 +10,8 @@
 
 ### [C++运算符重载和友元函数用法](http://blog.csdn.net/KingCat666/article/details/44870799)
 
+### [C++ internal linkage 和 external linkage](http://www.goldsborough.me/c/c++/linker/2016/03/30/19-34-25-internal_and_external_linkage_in_c++/)
+
 # 用于查询的文章
 
 ### [TCHAR 函数对照表](http://blog.csdn.net/is2120/article/details/27542927)
