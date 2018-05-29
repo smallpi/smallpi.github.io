@@ -12,6 +12,8 @@
 
 ### [C++ internal linkage 和 external linkage](http://www.goldsborough.me/c/c++/linker/2016/03/30/19-34-25-internal_and_external_linkage_in_c++/)
 
+### [C++ 各种继承时对象成员的内存情况](https://www.2cto.com/kf/201611/566787.html)
+
 # 用于查询的文章
 
 ### [TCHAR 函数对照表](http://blog.csdn.net/is2120/article/details/27542927)
