@@ -14,6 +14,8 @@
 
 ### [C++ 各种继承时对象成员的内存情况](https://www.2cto.com/kf/201611/566787.html)
 
+### [什么是manifest文件](http://www.cnblogs.com/lidabo/archive/2013/12/19/3482593.html)
+
 # 用于查询的文章
 
 ### [TCHAR 函数对照表](http://blog.csdn.net/is2120/article/details/27542927)
