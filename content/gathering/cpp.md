@@ -16,6 +16,8 @@
 
 ### [什么是manifest文件](http://www.cnblogs.com/lidabo/archive/2013/12/19/3482593.html)
 
+### [从零开始学Windows编程](https://www.cnblogs.com/cnyao/archive/2011/06/07/win32sdkp1.html)
+
 # 用于查询的文章
 
 ### [TCHAR 函数对照表](http://blog.csdn.net/is2120/article/details/27542927)
