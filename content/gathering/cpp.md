@@ -20,6 +20,8 @@
 
 ### [泛华之美--C++11可变模板参数的妙用](https://www.cnblogs.com/qicosmos/p/4325949.html)
 
+### [qt 学习之路2](https://www.devbean.net/2012/08/qt-study-road-2-catelog/)
+
 # 用于查询的文章
 
 ### [TCHAR 函数对照表](http://blog.csdn.net/is2120/article/details/27542927)
