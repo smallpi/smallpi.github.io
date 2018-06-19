@@ -22,6 +22,8 @@
 
 ### [qt 学习之路2](https://www.devbean.net/2012/08/qt-study-road-2-catelog/)
 
+### [虚基类、多重继承中的内存模型](https://stackoverflow.com/questions/11603198/virtual-tables-and-memory-layout-in-multiple-virtual-inheritance)
+
 # 用于查询的文章
 
 ### [TCHAR 函数对照表](http://blog.csdn.net/is2120/article/details/27542927)
