@@ -1,80 +1,34 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width,initial-scale=1"/>
-        <title>Smallpi</title>
+---
+layout: default
+---
 
-        <link rel="stylesheet" href="css/main.css" type="text/css"/>
-    </head>
-    <body>
-        <header>
-            <h1>Smallpi</h1>
-            <div id="menu-switch-container">
-                <img id="menu-switch-icon" src="images/menu.png"/>
-            </div>
-            <nav id="nav">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#programming">Programming</a></li>
-                    <li><a href="#life">life</a></li>
-                    <li><a href="#gathering">gathering</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#githubs">Githubs</a></li>
-                    <li><a href="#">About me</a></li>
-                </ul>
-            </nav>
-            <div id="side-container">
-                <div id="profile-container"></div>
-                <div id="info-container"></div>
-            </div>
-        </header>
-        <div id="main">
-            <div id="main-content">
-                <div id="programming" class="content-card">
-                    <h1 class="content-title">programming</h1>
-                    <p class="content-post">
+<div class="main-post-list hidden">
 
-                    </p>
-                </div>
-                <div id="life" class="content-card">
-                    <h1 class="content-title">life</h1>
-                    <p class="content-post">
-                        <a href="content/life/tripmap/tripmap.html">旅图</a>    
-                    </p>
-                </div>
-                <div id="gathering" class="content-card">
-                    <h1 class="content-title">gathering</h1>
-                    <p class="content-post">
-                        <a href="content/gathering/cpp.html">C/C++好文收藏</a>
-                        <a href="content/gathering/cadcam.html">cad/cam/几何 收藏</a>
-                        <a href="content/gathering/system.html">操作系统相关 收藏</a>
-
-                        <a href="http://www.bootcss.com/p/git-guide/">git-简易教程</a>
-                        <a href="https://github.com/ecomfe/spec">前端编码规范</a>
-                        <a href="content/gathering/network.html">计算机网络好文收藏</a>
-                        <a href="content/gathering/css.html">CSS好文收藏</a>  
-                        <a href="content/gathering/javascript.html">javascript好文收藏</a>  
-                        <a href="content/gathering/design.html">关于设计</a>      
-                    </p>
-                </div>
-                <div id="gallery" class="content-card">
-                    <h1 class="content-title">gallery</h1>
-                    <p class="content-post">
-                            
-                    </p>
-                </div>
-                <div id="githubs" class="content-card">
-                    <h1 class="content-title">githubs</h1>
-                    <p class="content-post">
-                            
-                    </p>
-                </div>
-            </div>
+  <ol class="post-list">
+    {% for post in paginator.posts %}
+    <li>
+      <h2 class="post-list__post-title post-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">{{ post.title }}</a></h2>
+      <p class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 250 }}&hellip;</p>
+      <div class="post-list__meta">        
+        <time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__meta--date date">
+          <img src="/images/calendar.png" width="20px" /> 
+          {{ post.date | date: "%F"}}</time> 
+        <div class = "tag-img-icon">
+          <img src="/images/tag-icon.svg" width="20px" /> 
         </div>
-        <footer></footer>
+        <a href="/tags">
+          <div class = "post-list-icon-mate">
+            <span class="post-list__meta--tags-right">{{ post.tags }}</span>
+          </div>
+          <div class = "post-list-small-mate">
+          <a class="btn-border-small" href={{ post.url }}>阅读全文 » </a>
+          </div>
+      </div>
+      <hr class="post-list__divider" />
+    </li>
+    {% endfor %}
+  </ol>
 
+  {% include pagination.html %}
 
-        <script src="js/main-logic.js"></script>
-    </body>
-</html>
+</div>
